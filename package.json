@@ -5,9 +5,11 @@
   "author": "Belief <846304126@qq.com>",
   "private": true,
   "scripts": {
-    "dev": "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js",
+    // "dev": "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js",
+    "dev": "webpack-dev-server --progress --colors --devtool cheap-module-eval-source-map --hot --inline",
     "start": "npm run dev",
-    "build": "node build/build.js"
+    "build": "webpack --progress --colors --devtool cheap-module-source-map"
+    // "build": "node build/build.js"
   },
   "dependencies": {
     "axios": "^0.19.2",
