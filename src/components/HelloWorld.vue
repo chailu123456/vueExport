@@ -1,6 +1,6 @@
 <template>
   <div class="hello">
-  <h1>vue表格导出--456</h1>
+  <h1>vue表格导出--456---</h1>
     <input type="file" ref="upload" accept=".xls,.xlsx" class="outputlist_upload">
     <div id="main" style="width: 600px;height: 400px;"></div>
   </div>
