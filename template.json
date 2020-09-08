@@ -1,0 +1,66 @@
+{
+  "code":200,
+  "data":{
+    "allExportConfig": {
+      "title": "批量导出",
+      "path": "export",
+      "params": "id",
+      "list": [
+        { "id": 1, "title": "平台场景" },
+        { "id": 2, "title": "渠道场景" },
+        { "id": 5, "title": "快应用场景" },
+        { "id": 4, "title": "子场景" },
+        { "id": 3, "title": "SDK上传热点" },
+        { "id": 6, "title": "可识别场景" }
+      ]
+    },
+  	"allUpdateConfig": {
+      "title": "批量处理 (导入/更新/绑定/解绑)",
+      "path": "update",
+      "params": "id",
+      "listA": [
+        { "id":1, "title": "平台场景修改", "name": "平台场景批量修改_Ver1" },
+        { "id":2, "title": "场景分类更新", "name": "平台场景分类批量更新_Ver1" },
+        { "id":3, "title": "父子场景管理", "name": "父子场景关系批处理_Ver1" },
+        { "id":4, "title": "场景楼层管理", "name": "场景楼层批量管理_Ver1" },
+        { "id":5, "title": "场景映射关系管理", "name": "POI映射关系处理_Ver1" },
+      ],
+      "listB": [
+        { "id":1, "title": "场景热点绑定(SDK)", "name": "SDK热点批量导入_Ver1" },
+        { "id":2, "title": "场景热点绑定(API)", "name": "API热点批量导入_Ver1" },
+        { "id":3, "title": "场景热点解绑", "name": "热点批量解绑_Ver1" },
+        { "id":4, "title": "场景基站数据管理", "name": "基站数据批量导入_Ver4" },
+        { "id":5, "title": "场景围栏数据管理", "name": "地理围栏批量处理_Ver1" }
+      ],
+      "listC": [
+        { "id":1, "title": "渠道场景上下架", "name": "渠道场景批量上下架_Ver3" },
+        { "id":2, "title": "渠道场景黑名单", "name": "渠道黑名单批量管理_Ver1" },
+        { "id":3, "title": "渠道场景推送", "name": "渠道推送批量管理_Ver2" }
+      ],
+      "listD": [
+        { "id":1, "title": "快应用场景上下架", "name": "快应用场景批量导入_Ver1" }
+      ],
+      "listE": [
+        { "id":1, "title": "热点指纹导入(正式)", "name": "热点指纹数据批量导入_Ver2" },
+        { "id":2, "title": "热点指纹导入(质检)", "name": "热点指纹质检点位导入_Ver2" },
+        { "id":3, "title": "热点指纹删除", "name": "热点指纹删除_Ver1" }
+      ]
+    },
+    "allQueryConfig": {
+      "title": "批量查询",
+      "path": "batchQuery",
+      "params": "id",
+      "list": [
+        { "id":1, "title": "AP反查匹配", "name": "AP反查匹配_Ver1" }
+      ]
+    },
+    "allImportConfig": {
+      "title": "批量创建",
+      "path": "batchQuerySetup",
+      "params": "id",
+      "list": [
+        { "id":1, "title": "平台场景创建", "name": "平台场景批量新增_Ver1" }
+      ]
+    }
+  }
+}

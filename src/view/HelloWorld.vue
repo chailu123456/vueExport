@@ -1,11 +1,16 @@
 <template>
   <div class="hello">
+  <Btn></Btn>
+  <Input :currentValue="currentValue"></Input>
   <h1>vue表格导出--456---789-888-自动打包--本地--------</h1>
   <h1>vue表格导出--456---789-888-自动打包--本地--------</h1>
   <h1>vue表格导出--456---789-888-自动打包--本地--------</h1>
   <h1>vue表格导出--456---789-888-自动打包--本地--------哈哈哈哈</h1>
   <h1>vue表格导出--456---789-888-自动打包--本地--------2222</h1>
     <input type="file" ref="upload" accept=".xls,.xlsx" class="outputlist_upload">
+    <div class="foot">
+      <p>粤ICP备20058414号</p>
+    </div>
   </div>
 </template>
 
@@ -19,6 +24,7 @@ export default {
   name: 'tab1',
   data () {
     return {
+      currentValue: 'hahahaha',
       outputs: []
     }
   },
@@ -104,4 +110,17 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+.foot{
+    position: fixed;
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+    height: 100px;
+    background: #000;
+    color: #fff;
+}
+p {
+  line-height: 100px;
+  margin: 0;
+}
 </style>
