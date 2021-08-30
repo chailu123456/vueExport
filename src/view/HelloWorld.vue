@@ -4,9 +4,6 @@
   <Input :currentValue="currentValue"></Input>
   <h1>测试</h1>
   <h1>vue表格导出--456---789-888-自动打包--本地--------</h1>
-  <h1>vue表格导出--456---789-888-自动打包--本地--------</h1>
-  <h1>vue表格导出--456---789-888-自动打包--本地--------哈哈哈哈</h1>
-  <h1>vue表格导出--456---789-888-自动打包--本地--------2222</h1>
   <h1>chmod 777 -R /usr/share/nginx/html/vueExport/static 添加权限</h1>
     <input type="file" ref="upload" accept=".xls,.xlsx" class="outputlist_upload">
     <div class="foot">
